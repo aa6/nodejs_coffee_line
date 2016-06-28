@@ -1,4 +1,11 @@
 # coffee-line
+
+## Installation
+
+`npm install coffee-line`
+
+## Usage
+
 ```coffee
 require "coffee-line"
 console.log __line
