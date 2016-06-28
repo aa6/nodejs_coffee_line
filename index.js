@@ -9,7 +9,7 @@ Object.defineProperty(global, '__line',
         Error.prepareStackTrace = origPrepareStackTrace
         if(Error.prepareStackTrace != null)
         {
-            var matches = (/:(\d+):\d+\)\n$/g).exec(Error.prepareStackTrace("",[stack[0]]))
+            var matches = (/:(\d+):\d+\)\n$/g).exec(Error.prepareStackTrace(err,[stack[0]]))
             if(typeof matches[1] != "undefined")
             {
                 return Number(matches[1])
