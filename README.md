@@ -1,6 +1,6 @@
 # coffee-line
 
-## Installation
+### Installation
 
 `npm install coffee-line`
 
